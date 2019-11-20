@@ -1,0 +1,159 @@
+
+body {
+  font-family:sans-serif;
+  background-color: #F5F5F5;
+}
+
+nav {
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 87px;
+  height: 100%;
+  position:fixed;
+
+}
+
+header {
+  position: relative;
+  top:30px;
+  left:130px;
+  font-size: 20px;
+  display:block;
+  height: 100px;
+
+  width:100%;
+}
+
+.welcome {
+  width: 610px;
+  height: 100px;
+  border-style:invisible;
+  background: linear-gradient(90deg, rgba(142,209,220,1) 0%, rgba(227,244,246,1) 100%);
+}
+
+
+.info {
+  border: solid;
+  border-color: white;
+  background-color: white;
+  height: 101px;
+  width: 187px;
+  margin: 10px 10px 10px 0px;
+  display: inline-block;
+  border-radius: 2px;
+
+}
+
+.account{
+  background-color: white;
+  width: 560px;
+  height: 44px;
+  border-style:hidden;
+  margin: 20px 0 0 0;
+  padding: 20px 10px 10px 20px;
+
+}
+
+.account-icon {
+  height: 31px;
+  width: 38px;
+
+
+
+}
+
+.logo-icon {
+  height: 75px ;
+  width: 65px;
+  position:absolute;
+  left: 15px;
+
+}
+
+.nav-icon-dash {
+  height: 45px;
+  width:40px;
+  left: 10px;
+  position: absolute;
+  left: 22px;
+  top: 330px;
+
+}
+
+.nav-icon-clip {
+  height: 40px;
+  width:45px;
+  left: 10px;
+  position: absolute;
+  left: 21px;
+  top: 380px;
+
+}
+
+.nav-icon-profile {
+  height: 40px;
+  width:45px;
+  left: 10px;
+  position: absolute;
+  left: 21px;
+  top: 430px;
+
+}
+
+.close {
+  height: 16px;
+  width: 16px;
+  float: right;
+
+}
+
+.column1of2 {
+    position:absolute;
+    left: 100px;
+    float:left;
+    width: 50%;
+    margin-left: 40px;
+
+}
+
+.column2of2 {
+    position:absolute;
+    left: 800px;
+    width: 30%;
+
+
+}
+
+
+
+table{
+  background-color: white;
+  border-bottom: 1px solid #CCCCCC;
+  border-collapse: collapse;
+  width: 583px;
+  height: 40px;
+  border-width: 20px;
+}
+
+
+td {
+  background-color: white;
+  border-bottom: 1px solid #CCCCCC;
+  border-collapse: collapse;
+  width: 583px;
+  height: 40px;
+}
+
+button {
+  background-color:#1CA3BA;
+  color: #363636;
+  border-radius: 15px;
+  height: 30px;
+  width: 150px;
+
+}
+
+#account-button {
+  
+}
