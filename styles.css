@@ -1,7 +1,8 @@
 
 body {
-  font-family:sans-serif;
+  font-family:Biryani;
   background-color: #F5F5F5;
+  position: relative;
 }
 
 nav {
@@ -16,13 +17,13 @@ nav {
 
 header {
   position: relative;
-  top:30px;
-  left:130px;
+  top:20px;
+  left:140px;
   font-size: 20px;
   display:block;
   height: 100px;
 
-  width:100%;
+  width:90%;
 }
 
 .welcome {
@@ -34,14 +35,15 @@ header {
 
 
 .info {
-  border: solid;
-  border-color: white;
-  background-color: white;
-  height: 101px;
-  width: 187px;
-  margin: 10px 10px 10px 0px;
-  display: inline-block;
-  border-radius: 2px;
+    border: solid;
+    border-color: white;
+    background-color: white;
+    height: 90px;
+    width: 177px;
+    margin: 22px 27px 40px 0px;
+    display: inline-block;
+    border-radius: 2px;
+    line-height: 30px;
 
 }
 
@@ -58,8 +60,6 @@ header {
 .account-icon {
   height: 31px;
   width: 38px;
-
-
 
 }
 
@@ -105,6 +105,8 @@ header {
   height: 16px;
   width: 16px;
   float: right;
+  right: 10px;
+  top: 10px;
 
 }
 
@@ -120,7 +122,7 @@ header {
 .column2of2 {
     position:absolute;
     left: 800px;
-    width: 30%;
+    width: 45%;
 
 
 }
@@ -133,9 +135,23 @@ table{
   border-collapse: collapse;
   width: 583px;
   height: 40px;
-  border-width: 20px;
+
 }
 
+th {
+  background-color: white;
+  border-bottom: .5px solid #CCCCCC;
+  border-collapse: collapse;
+  width: 583px;
+  height: 40px;
+}
+
+.tbl.top {
+  background-color: white;
+  border-collapse: collapse;
+  width: 583px;
+  height: 40px;
+}
 
 td {
   background-color: white;
@@ -145,15 +161,25 @@ td {
   height: 40px;
 }
 
+.account.btn {
+  margin-left: 400px;
+}
+
 button {
   background-color:#1CA3BA;
-  color: #363636;
+  color: white;
   border-radius: 15px;
   height: 30px;
   width: 150px;
 
 }
 
+.tbl-mrgns {
+  padding: 20px;
+  background-color:#FFFFFF;
+}
+
+
 #account-button {
-  
+
 }
