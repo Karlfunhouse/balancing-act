@@ -1,9 +1,12 @@
 
+
+
 body {
   font-family:Biryani;
   background-color: #F5F5F5;
   position: relative;
 }
+
 
 nav {
   background-color: white;
@@ -15,20 +18,25 @@ nav {
 
 }
 
-header {
-  position: relative;
-  top:20px;
-  left:140px;
-  font-size: 20px;
-  display:block;
-  height: 100px;
+main {
+  margin-left:87px;
+}
 
-  width:90%;
+
+header {
+  font-size: 25px;
+  display:block;
+  border:1px solid pink;
+  margin-left: 18px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
 }
 
 .welcome {
   width: 610px;
   height: 100px;
+  border-radius: 5px;
   border-style:invisible;
   background: linear-gradient(90deg, rgba(142,209,220,1) 0%, rgba(227,244,246,1) 100%);
 }
@@ -40,16 +48,31 @@ header {
     background-color: white;
     height: 90px;
     width: 177px;
-    margin: 22px 27px 40px 0px;
+    margin: 22px 27px 20px 0px;
     display: inline-block;
     border-radius: 2px;
     line-height: 30px;
+    font-size: 10px;
 
+
+}
+
+.info3 {
+  border: solid;
+  border-color: white;
+  background-color: white;
+  height: 90px;
+  width: 177px;
+  margin: 22px 0px 20px 0px;
+  display: inline-block;
+  border-radius: 2px;
+  line-height: 30px;
+  font-size: 10px;
 }
 
 .account{
   background-color: white;
-  width: 560px;
+  width: 580px;
   height: 44px;
   border-style:hidden;
   margin: 20px 0 0 0;
@@ -68,6 +91,7 @@ header {
   width: 65px;
   position:absolute;
   left: 15px;
+  top: 10px;
 
 }
 
@@ -77,7 +101,7 @@ header {
   left: 10px;
   position: absolute;
   left: 22px;
-  top: 330px;
+  top: 300px;
 
 }
 
@@ -87,7 +111,7 @@ header {
   left: 10px;
   position: absolute;
   left: 21px;
-  top: 380px;
+  top: 360px;
 
 }
 
@@ -97,7 +121,7 @@ header {
   left: 10px;
   position: absolute;
   left: 21px;
-  top: 430px;
+  top: 420px;
 
 }
 
@@ -105,50 +129,59 @@ header {
   height: 16px;
   width: 16px;
   float: right;
-  right: 10px;
-  top: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 
 }
 
 .column1of2 {
-    position:absolute;
-    left: 100px;
-    float:left;
-    width: 50%;
-    margin-left: 40px;
+    margin-top: 0;
+    padding-top:0;
+    margin-left: 18px;
+    display: inline-block;
+    border:1px solid pink;
 
 }
 
 .column2of2 {
-    position:absolute;
-    left: 800px;
-    width: 45%;
+    padding:20px;
+    margin-top: 0;
+    padding-top:0;
+    background-color: white;
+    display: inline-block;
+    border:1px solid pink;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-left: 60px;
 
 
 }
-
 
 
 table{
   background-color: white;
   border-bottom: 1px solid #CCCCCC;
   border-collapse: collapse;
-  width: 583px;
+  width: 450px;
   height: 40px;
 
 }
 
+tr {
+  width: 50px;
+  height: 40px;
+}
 th {
   background-color: white;
-  border-bottom: .5px solid #CCCCCC;
   border-collapse: collapse;
-  width: 583px;
+  width: 53px;
   height: 40px;
 }
 
 .tbl.top {
   background-color: white;
   border-collapse: collapse;
+  border-bottom:0px;
   width: 583px;
   height: 40px;
 }
@@ -157,20 +190,24 @@ td {
   background-color: white;
   border-bottom: 1px solid #CCCCCC;
   border-collapse: collapse;
-  width: 583px;
+  width: 563px;
   height: 40px;
 }
 
-.account.btn {
-  margin-left: 400px;
+.tbl.date {
+  font-size: 6px;
 }
-
-button {
+ button {
   background-color:#1CA3BA;
   color: white;
   border-radius: 15px;
   height: 30px;
-  width: 150px;
+  width: 170px;
+  font-size: 13px;
+  float: right;
+}
+
+.table.button {
 
 }
 
