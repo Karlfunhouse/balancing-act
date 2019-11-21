@@ -53,21 +53,19 @@ header {
     border-radius: 2px;
     line-height: 30px;
     font-size: 10px;
+    text-align:left;
 
 
 }
 
-.info3 {
-  border: solid;
-  border-color: white;
-  background-color: white;
-  height: 90px;
-  width: 177px;
-  margin: 22px 0px 20px 0px;
-  display: inline-block;
-  border-radius: 2px;
-  line-height: 30px;
-  font-size: 10px;
+.welcome-message {
+  display: inline;
+  line-height:100px;
+  padding-left: 20px;
+}
+
+.info-name {
+  padding-left: 20px;
 }
 
 .account{
@@ -76,10 +74,19 @@ header {
   height: 44px;
   border-style:hidden;
   margin: 20px 0 0 0;
-  padding: 20px 10px 10px 20px;
+  padding: 10px 10px 10px 20px;
 
 }
 
+.account-bank {
+  display: inline-block;
+
+}
+
+.account-account {
+  display: inline-block;
+  float: right
+}
 .account-icon {
   height: 31px;
   width: 38px;
@@ -178,7 +185,7 @@ th {
   height: 40px;
 }
 
-.tbl.top {
+.tbl-top {
   background-color: white;
   border-collapse: collapse;
   border-bottom:0px;
@@ -194,7 +201,7 @@ td {
   height: 40px;
 }
 
-.tbl.date {
+.tbl-date {
   font-size: 6px;
 }
  button {
@@ -207,7 +214,7 @@ td {
   float: right;
 }
 
-.table.button {
+.table-button {
 
 }
 
@@ -217,6 +224,7 @@ td {
 }
 
 
-#account-button {
+.account-button {
+  margin-right:25px;
 
 }
