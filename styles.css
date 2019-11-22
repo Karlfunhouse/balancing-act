@@ -66,6 +66,13 @@ header {
 
 .info-name {
   padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.info-num {
+  padding-left: 20px;
+  font-size: 20px;
+  margin-top: 0;
 }
 
 .account{
@@ -80,12 +87,15 @@ header {
 
 .account-bank {
   display: inline-block;
+  margin-left: 70px;
 
 }
 
 .account-account {
   display: inline-block;
-  float: right
+  float: right;
+  margin-right: 80px;
+  margin-top: 10px;
 }
 .account-icon {
   height: 31px;
@@ -132,12 +142,15 @@ header {
 
 }
 
+
+
 .close {
   height: 16px;
   width: 16px;
   float: right;
   margin-right: 10px;
   margin-top: 10px;
+  cursor: pointer;
 
 }
 
@@ -147,13 +160,13 @@ header {
     margin-left: 18px;
     display: inline-block;
     border:1px solid pink;
+    float: left;
 
 }
 
 .column2of2 {
     padding:20px;
     margin-top: 0;
-    padding-top:0;
     background-color: white;
     display: inline-block;
     border:1px solid pink;
@@ -169,7 +182,7 @@ table{
   background-color: white;
   border-bottom: 1px solid #CCCCCC;
   border-collapse: collapse;
-  width: 450px;
+  width: 520px;
   height: 40px;
 
 }
@@ -191,6 +204,12 @@ th {
   border-bottom:0px;
   width: 583px;
   height: 40px;
+}
+
+.tbl-head {
+  display: inline-block;
+  float: left;
+  font-size: 20px;
 }
 
 td {
