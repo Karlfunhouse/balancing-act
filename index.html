@@ -17,11 +17,11 @@
           <img src="assets/elephant.svg" class="logo-icon" alt="elephant balancing on a ball"/>
 
         <ul>
-          <li><img src="assets/dashboard.svg" class="nav-icon active" alt="Clipboard with chart"/></li>
+          <li><img src="assets/dashboard.svg" class="nav-icon active" id="clipboard" alt="Clipboard with chart"/></li>
 
-          <li><img src="assets/transactions.svg" id="#wallet" class="nav-icon" alt="debit card in wallet"/></li>
+          <li><img src="assets/transactions.svg" id="wallet" class="nav-icon" alt="debit card in wallet"/></li>
 
-          <li><img src="assets/profile.svg" class="nav-icon" alt="user profile picture"/></li>
+          <li><img src="assets/profile.svg" class="nav-icon" id="profile" alt="user profile picture"/></li>
         </ul>
       </nav>
 
@@ -31,54 +31,51 @@
 <main>
       <header>Balancing Act</header>
 
+      <section id="welcomeMain">
+        <section class="column1of2">
 
-      <section class="column1of2">
+          <section class="welcome">
+            <h3 class="welcome-message">Welcome, Mittens!</h3>
+            <img class="close" src="assets/close.svg" alt="X">
+          </section>
 
-        <section class="welcome">
-          <h3 class="welcome-message">Welcome, Mittens!</h3>
-          <img class="close" src="assets/close.svg" alt="X">
-        </section>
+          <section class="info">
+            <p class="info-name">INCOME</p>
+            <p class="info-num">$2,119.12</p>
+          </section>
 
-        <section class="info">
-          <p class="info-name">INCOME</p>
-          <p class="info-num">$2,119.12</p>
-        </section>
+          <section class="info">
+            <p class="info-name">EXPENSES</p>
+            <p class="info-num">$420.54</p>
+          </section>
 
-        <section class="info">
-          <p class="info-name">EXPENSES</p>
-          <p class="info-num">$420.54</p>
-        </section>
-
-        <section class="info">
-          <p class="info-name">CREDIT SCORE </p>
-          <p class="info-num">673</p>
-        </section>
-
-
+          <section class="info">
+            <p class="info-name">CREDIT SCORE </p>
+            <p class="info-num">673</p>
+          </section>
 
 
-        <section> <h3>Accounts <button class="account-button">MANAGE ACCOUNTS</button></h3> </section>
 
-        <section class="account"> <img class="account-icon" src="assets/checking.svg" alt="checking"/>
-          <div class="account-bank">Wells Fargo
+
+          <section> <h3>Accounts <button class="account-button">MANAGE ACCOUNTS</button></h3> </section>
+
+          <section class="account"> <img class="account-icon" src="assets/checking.svg" alt="checking"/>
+            <div class="account-bank">Wells Fargo
           </div> <div class="account-account">Checking</div>
-        </section>
+          </section>
 
-        <section class="account"> <img class="account-icon" src="assets/savings.svg" alt="piggy bank"/>
+          <section class="account"> <img class="account-icon" src="assets/savings.svg" alt="piggy bank"/>
           <div class="account-bank">Wells Fargo </div> <div class="account-account">Savings </div>
+          </section>
+
+          <section class="account"> <img class="account-icon" src="assets/credit-card.svg" alt="credit card"/> <div class="account-bank">Amazon Credit </div> <div class="account-account">Credit Card
+          </section>
+
+          <section class="account"> <img class="account-icon" src="assets/credit-card.svg" alt="credit card"/><div class="account-bank">Southwest Credit</div> <div class="account-account">Credit Card</div>
+          </section>
+
+
         </section>
-
-        <section class="account"> <img class="account-icon" src="assets/credit-card.svg" alt="credit card"/> <div class="account-bank">Amazon Credit </div> <div class="account-account">Credit Card
-        </section>
-
-        <section class="account"> <img class="account-icon" src="assets/credit-card.svg" alt="credit card"/><div class="account-bank">Southwest Credit</div> <div class="account-account">Credit Card</div>
-        </section>
-
-
-      </section>
-
-
-
 
 
 
@@ -156,8 +153,10 @@
 
 
       </section>
+    </section>
 
     </main>
       <script src="main.js" type="text/JavaScript"></script>
     </body>
+
   </html>
