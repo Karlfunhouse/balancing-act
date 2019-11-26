@@ -18,8 +18,10 @@ nav {
 
 }
 
+
 main {
   margin-left:87px;
+
 }
 
 
@@ -256,9 +258,6 @@ td {
   cursor: pointer;
 }
 
-.table-button {
-
-}
 
 .tbl-mrgns {
   padding: 20px;
@@ -271,46 +270,25 @@ td {
 
 }
 
-
-
-/* .nav-icon-clip {
-  height: 45px;
-  width:40px;
-  left: 5px;
-  position: absolute;
-
-  top: 300px;
-  padding-left: 18px;
-  border-left-width: 2px;
-  border-left-style: solid;
-  border-left-color: white;
+.screen-left {
+  float: left;
+  display: inline-block;
 
 }
 
+.screen-right {
+  float: right;
+  display: inline-block;
+  margin-right: 300px;
 
-.nav-icon-wallet {
-  height: 40px;
-  width:45px;
-  left: 10px;
-  position: absolute;
-  left: 5px;
-  text-align: center;
-  top: 360px;
-  padding-left: 16px;
-  border-left-width: 2px;
-  border-left-style: solid;
-  border-left-color: white;
 }
 
-.nav-icon-profile {
-  height: 40px;
-  width:45px;
-  text-align: center;
-  position: absolute;
-  left: 3px;
-  top: 420px;
-  padding-left: 18px;
-  border-left-width: 2px;
-  border-left-style: solid;
-  border-left-color: white;
-} */
+/* .transactions-head {
+  width: 250px;
+  display: inline-block; */
+}
+
+.forMat {
+  background-color: white;
+
+}

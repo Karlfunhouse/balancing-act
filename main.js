@@ -15,6 +15,9 @@ var accountScreen = document.querySelector ('#welcomeMain');
 var navButtonWallet = document.querySelector('#wallet');
 navButtonWallet.addEventListener('click', selectWallet);
 
+var main = document.querySelector('main');
+var showTransactions = document.querySelector('#transactionsMain');
+
 function selectWallet(event){
   console.log(event);
   if (event.target.classList.contains("active")){
@@ -24,6 +27,8 @@ function selectWallet(event){
     navButtonClipboard.classList.remove('active');
     navButtonProfile.classList.remove('active');
     accountScreen.classList.add('hide');
+    // main.innerHTML +="I AM A DINOSAUR";
+    showTransactions.classList.remove('hide');
   }
 
 }
@@ -41,6 +46,7 @@ function selectClipboard(event){
     navButtonProfile.classList.remove('active');
     accountScreen.classList.remove('hide');
     popup.classList.remove('hide');
+    showTransactions.classList.add('hide');
   }
 
 }
@@ -58,5 +64,4 @@ function selectProfile(event){
     navButtonWallet.classList.remove('active');
 
   }
-
 }

@@ -29,9 +29,11 @@
 
 
 <main>
+
+    <section id="welcomeMain">
       <header>Balancing Act</header>
 
-      <section id="welcomeMain">
+
         <section class="column1of2">
 
           <section class="welcome">
@@ -152,11 +154,103 @@
         </table>
 
 
+        </section>
       </section>
+
+
+
+<!-- NOTE: transaction.main start -->
+
+<section>
+  <div id="transactionsMain" class="hide">
+    <header>
+
+      <h2>Transactions</h2>
+
+        <section>
+
+          <button>ALL</button>
+          <button>INFLOW</button>
+          <button>OUTFLOW</button>
+
+        </section>
+
+    </header>
+
+    <section class="screen-left">
+      <table>
+        <th colspan="5" class="tbl.top">
+          <tr>
+            <td>Date</td>
+            <td>Account</td>
+            <td>Payee</td>
+            <td>Inflow</td>
+            <td>Outflow</td>
+          </tr>
+
+
+      </table>
+
     </section>
 
-    </main>
+    <section class="screen-right">
+      <h2>New Transaction</h2>
+
+      <form>
+        <p>Type of Transaction:</p>
+
+        <select name="transaction">
+          <option value="expense">Expense</option>
+          <option value="deposit">Deposit</option>
+          <option value="transfer">Transfer</option>
+          <option value="withdrawl">Withdrawl</option>
+
+
+        </select>
+        <p>Category:</p>
+
+        <select name="Category">
+          <option disabled selected value="">- Select One -</option>
+          <option value="school">School</option>
+          <option value="food">Food</option>
+          <option value="fun">Fun</option>
+        </select>
+
+
+        </select>
+
+        <p>Account from:</p>
+        <select name="account">
+          <option disabled selected value="">- Select One -</option>
+          <option value="checking">Checking</option>
+          <option value="credit">Credit Card</option>
+          <option value="savings">Savings</option>
+        </select>
+
+
+        <p> Payee:
+          <input type="text" name="Payee:"/>
+        </p>
+        <p>Outflow:
+          <input type="integer" name="Outflow:"/>
+        </p>Inflow:
+          <input type="integer" name="Inflow:"/>
+        </p>
+          <button>Log Expenses</button>
+
+
+      </form>
+
+
+
+    </section>
+
+</section>
+
+</main>
       <script src="main.js" type="text/JavaScript"></script>
+
+      <!-- <script src="practice.js" type="text/JavaScript"></script> -->
     </body>
 
   </html>
