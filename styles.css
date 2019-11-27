@@ -139,8 +139,6 @@ li img {
 
 }
 .nav-icon {
-  /* padding-bottom: 20px; */
-  /* padding-top: 15px; */
   padding-left: 15px;
   margin-left: -15px;
 
@@ -209,14 +207,17 @@ table{
 }
 
 tr {
-  width: 50px;
+  width: 60px;
   height: 40px;
 }
+
 th {
   background-color: white;
   border-collapse: collapse;
   width: 53px;
-  height: 40px;
+  height: 20px;
+  margin: 20px;
+  padding: 20px;
 }
 
 .tbl-top {
@@ -247,6 +248,7 @@ td {
   font-size: 6px;
   padding-right:20px;
 }
+
  button {
   background-color:#1CA3BA;
   color: white;
@@ -260,8 +262,11 @@ td {
 
 
 .tbl-mrgns {
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
   background-color:#FFFFFF;
+
 }
 
 
@@ -270,25 +275,87 @@ td {
 
 }
 
+
+
 .screen-left {
+  position: relative;
   float: left;
-  display: inline-block;
+  /* display: block; */
+  height: 500px;
+  width: 500px;
+  margin-right:200px;
+  background-color: white;
+
 
 }
 
 .screen-right {
+  position: relative;
   float: right;
   display: inline-block;
-  margin-right: 300px;
+  margin-right: 100px;
+
+  background: white;
+  width: 400px;
+  height: 500px;
+  padding: 50px;
+  padding-top: 0px;
+}
+
+.screen-right p {
+  line-height: 0px;
+}
+
+input {
+  height: 30px;
+  width: 380px;
+  text-indent: 5px;
+  font-size: 15px;
+  border-style: none;
+  border-color: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.transactions-head {
+  position: relative;
+  float: left;
+  width: 800px;
+}
+
+.trans-h2 {
+  text-align: center;
+}
+
+.trans-button {
+  width: 100px;
+  display: inline;
+  margin-left: 3px;
 
 }
 
-/* .transactions-head {
-  width: 250px;
-  display: inline-block; */
+.button-align {
+  position: relative;
+  margin-right:100px;
 }
 
+.button-inactive {
+  background-color: white;
+  color: #1CA3BA;
+  border-color: #1CA3BA;
+}
+
+.log-button {
+  float: left;
+  border-color: none;
+  border-style: none;
+
+}
 .forMat {
   background-color: white;
+
+}
+
+.trans.input {
+  width: 80px;
+  height: 30px;
 
 }

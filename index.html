@@ -57,8 +57,6 @@
           </section>
 
 
-
-
           <section> <h3>Accounts <button class="account-button">MANAGE ACCOUNTS</button></h3> </section>
 
           <section class="account"> <img class="account-icon" src="assets/checking.svg" alt="checking"/>
@@ -162,24 +160,33 @@
 <!-- NOTE: transaction.main start -->
 
 <section>
+
+  <!-- NOTE: TOP PASTE HERE -->
+
   <div id="transactionsMain" class="hide">
-    <header>
+    <header class="transactions-head">Transactions
 
-      <h2>Transactions</h2>
+      <section class="button-align">
 
-        <section>
 
-          <button>ALL</button>
-          <button>INFLOW</button>
-          <button>OUTFLOW</button>
 
-        </section>
 
+          <button class="trans-button">ALL</button>
+
+          <button class="trans-button button-inactive">INFLOW</button>
+
+          <button class="trans-button button-inactive">OUTFLOW</button>
+
+
+      </section>
+      </section>
     </header>
+  <!-- <div> -->
+  <section>
 
     <section class="screen-left">
-      <table>
-        <th colspan="5" class="tbl.top">
+      <table class="tbl-mrgns">
+        <th colspan="5" >
           <tr>
             <td>Date</td>
             <td>Account</td>
@@ -187,16 +194,114 @@
             <td>Inflow</td>
             <td>Outflow</td>
           </tr>
-
-
+          <tr>
+            <td class="tbl.date" >10-25-19</td>
+            <td>Credit Card</td>
+            <td>Target</td>
+            <td>-</td>
+            <td>$82.35</td>
+          </tr>
+          <tr>
+            <td class="tbl.date">10-24-19</td>
+            <td>Credit Card</td>
+            <td>Express</td>
+            <td>-</td>
+            <td>$212.24</td>
+          </tr>
+          <tr>
+            <td class="tbl.date">10-22-19</td>
+            <td>Checking</td>
+            <td>Paycheck</td>
+            <td>$1,319.12</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td class="tbl.date">10-21-19</td>
+            <td>Credit Card</td>
+            <td>Trader Joe's</td>
+            <td>-</td>
+            <td>$54.92</td>
+          </tr>
+          <tr>
+            <td class="tbl.date">10-20-19</td>
+            <td>Credit Card</td>
+            <td>Shell</td>
+            <td>-</td>
+            <td>$46.23</td>
+          </tr>
+          <tr>
+            <td class="tbl.date">10-24-19</td>
+            <td>Savings</td>
+            <td>Rent</td>
+            <td>$800.00</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td ><div class="tbl.date">10-19-19</div></td>
+            <td>Checking</td>
+            <td>Hapa Sushi</td>
+            <td>-</td>
+            <td>$13.97</td>
+          </tr>
+          <tr>
+            <td class="tbl.date">10-18-19</td>
+            <td>Credit Card</td>
+            <td>Pig Train</td>
+            <td>-</td>
+            <td>$4.83</td>
+          </tr>
+          <tr>
+            <td class=".tbl.date">10-18-19</td>
+            <td>Checking</td>
+            <td>RTD</td>
+            <td>-</td>
+            <td>$6.00</td>
+          </tr>
+          <tr>
+            <td class="tbl.date">10-24-19</td>
+            <td>Credit Card</td>
+            <td>Express</td>
+            <td>-</td>
+            <td>$212.24</td>
+          </tr>
+          <tr>
+            <td class="tbl.date">10-24-19</td>
+            <td>Credit Card</td>
+            <td>Express</td>
+            <td>-</td>
+            <td>$212.24</td>
+          </tr>
+          <tr>
+            <td class="tbl.date">10-24-19</td>
+            <td>Credit Card</td>
+            <td>Express</td>
+            <td>-</td>
+            <td>$212.24</td>
+          </tr>
+          <tr>
+            <td class="tbl.date">10-24-19</td>
+            <td>Credit Card</td>
+            <td>Express</td>
+            <td>-</td>
+            <td>$212.24</td>
+          </tr>
+          <tr>
+            <td class="tbl.date">10-24-19</td>
+            <td>Credit Card</td>
+            <td>Express</td>
+            <td>-</td>
+            <td>$212.24</td>
+          </tr>
       </table>
 
     </section>
 
-    <section class="screen-right">
-      <h2>New Transaction</h2>
 
-      <form>
+
+    <section class="screen-right">
+      <h2 class="trans-h2">New Transaction</h2>
+
+      <form class="forMat">
         <p>Type of Transaction:</p>
 
         <select name="transaction">
@@ -217,7 +322,6 @@
         </select>
 
 
-        </select>
 
         <p>Account from:</p>
         <select name="account">
@@ -228,24 +332,37 @@
         </select>
 
 
-        <p> Payee:
-          <input type="text" name="Payee:"/>
+        <p> Payee:</p>
+
+        <p><input type="text" class="trans.input" name="Payee:"/>
         </p>
-        <p>Outflow:
-          <input type="integer" name="Outflow:"/>
-        </p>Inflow:
-          <input type="integer" name="Inflow:"/>
+
+        <p>Outflow:</p>
+
+        <p><input type="integer" class="trans.input" name="Outflow:"/>
         </p>
-          <button>Log Expenses</button>
+
+        <p>Inflow:</p>
+
+        <p><input type="integer" class="trans.input" name="Inflow:"/>
+        </p>
+
+          <button class="log-button">Log Expenses</button>
 
 
-      </form>
+        </form>
 
 
+
+      </section>
 
     </section>
+  <!-- </div> -->
 
-</section>
+
+  </div>
+
+<!-- NOTE: End COPY/PASTE -->
 
 </main>
       <script src="main.js" type="text/JavaScript"></script>
