@@ -1,12 +1,8 @@
-
-
-
 body {
   font-family:Biryani;
   background-color: #F5F5F5;
   position: relative;
 }
-
 
 nav {
   background-color: white;
@@ -15,23 +11,16 @@ nav {
   width: 80px;
   height: 100%;
   position:fixed;
-
 }
-
 
 main {
   margin-left:87px;
-
 }
-
 
 header {
   font-size: 35px;
-  display:block;
-  margin-left: 18px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-
+  display: block;
+  margin: 25px 18px;
 }
 
 .welcome {
@@ -43,7 +32,6 @@ header {
   background: linear-gradient(90deg, rgba(142,209,220,1) 0%, rgba(227,244,246,1) 100%);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
-
 
 .info {
     border: solid;
@@ -58,8 +46,6 @@ header {
     font-size: 10px;
     text-align:left;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-
-
 }
 
 .welcome-message {
@@ -88,13 +74,11 @@ header {
   margin: 15px 0 0 0;
   padding: 10px 10px 10px 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-
 }
 
 .account-bank {
   display: inline-block;
   margin-left: 70px;
-
 }
 
 .account-account {
@@ -103,10 +87,10 @@ header {
   margin-right: 80px;
   margin-top: 10px;
 }
+
 .account-icon {
   height: 31px;
   width: 38px;
-
 }
 
 .logo-icon {
@@ -115,7 +99,6 @@ header {
   position:absolute;
   left: 10px;
   top: 10px;
-
 }
 
 ul {
@@ -134,13 +117,11 @@ li img {
   border-left-width: 2px;
   border-left-style: solid;
   border-left-color: white;
-
-
 }
+
 .nav-icon {
   padding-left: 15px;
   margin-left: -15px;
-
 }
 
 .nav-icon:hover,
@@ -149,20 +130,17 @@ li img {
   border-left-width: 2px;
   border-left-style: solid;
   border-left-color: #BCD9EA;
-
 }
 
 .active {
   border-left-width: 2px;
   border-left-style: solid;
   border-left-color:#1CA3BA;
-
 }
 
 .hide {
   display: none;
 }
-
 
 .close {
   height: 16px;
@@ -171,7 +149,6 @@ li img {
   margin-right: 10px;
   margin-top: 10px;
   cursor: pointer;
-
 }
 
 .column1of2 {
@@ -180,19 +157,17 @@ li img {
     margin-left: 18px;
     display: inline-block;
     float: left;
-
 }
 
 .column2of2 {
     padding:20px;
+    float: right;
+    margin-right: 30px;
+    width: 40%;
     margin-top: 0;
     background-color: white;
     display: inline-block;
-    padding-left: 30px;
-    padding-right: 20px;
-    margin-left: 60px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-
 }
 
 
@@ -201,14 +176,11 @@ table{
   border-bottom: 1px solid #CCCCCC;
   border-collapse: collapse;
   width: 520px;
-  /* height: 40px; */
-
 }
 
 tr {
   width: 140px;
   height: 40px;
-
 }
 
 th {
@@ -222,9 +194,8 @@ th {
 
 .trans-table {
   width: 70px;
-  height: 0px;
-  margin: 20px;
-  padding: 20px;
+  margin: 0px;
+  padding: 0;
 }
 
 .tbl-top {
@@ -274,11 +245,8 @@ td {
 }
 
 .tbl-mrgns {
-  /* padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px; */
   margin: auto;
-  width: 100%;
+  width: 90%;
   background-color:#FFFFFF;
 
 }
@@ -292,35 +260,32 @@ td {
 
 
 .screen-left {
-  position: relative;
   float: left;
-  height: 800px;
-  width: 600px;
-  margin-right: 50px;
+  width: 50%;
+  margin-left: 30px;
   background-color: white;
-  padding-left: 40px;
-  padding-right: 30px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
 
 }
 
 .screen-right {
-  position: relative;
   float: right;
-  display: inline-block;
+  width: 30%;
   margin-right: 50px;
-  margin-left: 50px;
   background: white;
-  width: 400px;
-  height: 550px;
-  padding: 50px;
-  padding-top: 0px;
+  margin-top: 0;
+  padding: 10px 50px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .screen-right p {
   line-height: 0px;
+}
+
+.container {
+  display: inline-block;
+  width: 100%;
 }
 
 input {
@@ -336,10 +301,9 @@ input {
 
 .transactions-head {
   position: relative;
-  float: left;
-  width: 800px;
-  margin-left: 0;
-  margin-bottom: 0;
+  width: 100%;
+  margin-left: 30px;
+  margin-bottom: 10px;
 
 }
 
@@ -368,8 +332,8 @@ select {
 .button-align {
   position: relative;
   margin-right:100px;
-  right: 30px;
-  bottom: 35px;
+  right: 570px;
+  bottom: 50px;
 }
 
 .button-inactive {
