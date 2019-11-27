@@ -206,8 +206,9 @@ table{
 }
 
 tr {
-  width: 80px;
+  width: 140px;
   height: 40px;
+
 }
 
 th {
@@ -220,7 +221,7 @@ th {
 }
 
 .trans-table {
-  width: 60px;
+  width: 70px;
   height: 0px;
   margin: 20px;
   padding: 20px;
@@ -246,15 +247,17 @@ td {
   background-color: white;
   border-bottom: 1px solid #CCCCCC;
   border-collapse: collapse;
-  width: 663px;
   height: 40px;
+  font-size: .9em;
 }
 
 .tbl-date {
-  font-size: 6px;
-  padding-right:20px;
+  padding-right: 20px;
 }
 
+.tbl-payee {
+  padding-right: 40px;
+}
  button {
   background-color:#1CA3BA;
   color: white;
@@ -266,11 +269,16 @@ td {
   cursor: pointer;
 }
 
+.trans-header {
+  font-size: 1.15em;
+}
 
 .tbl-mrgns {
-  padding-left: 20px;
+  /* padding-left: 20px;
   padding-right: 20px;
-  padding-top: 10px;
+  padding-top: 10px; */
+  margin: auto;
+  width: 100%;
   background-color:#FFFFFF;
 
 }
