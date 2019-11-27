@@ -305,7 +305,7 @@ td {
   margin-left: 50px;
   background: white;
   width: 400px;
-  height: 500px;
+  height: 550px;
   padding: 50px;
   padding-top: 0px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -343,6 +343,7 @@ select {
   font-size: 14px;
   font-weight: 200;
   background-color: #F4F4F4;
+  margin-bottom: 10px;
 }
 
 .trans-h2 {
