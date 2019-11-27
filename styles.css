@@ -26,9 +26,8 @@ main {
 
 
 header {
-  font-size: 25px;
+  font-size: 35px;
   display:block;
-
   margin-left: 18px;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -202,12 +201,12 @@ table{
   border-bottom: 1px solid #CCCCCC;
   border-collapse: collapse;
   width: 520px;
-  height: 40px;
+  /* height: 40px; */
 
 }
 
 tr {
-  width: 60px;
+  width: 80px;
   height: 40px;
 }
 
@@ -215,7 +214,14 @@ th {
   background-color: white;
   border-collapse: collapse;
   width: 53px;
-  height: 20px;
+  height: 0px
+  margin: 20px;
+  padding: 20px;
+}
+
+.trans-table {
+  width: 60px;
+  height: 0px;
   margin: 20px;
   padding: 20px;
 }
@@ -240,7 +246,7 @@ td {
   background-color: white;
   border-bottom: 1px solid #CCCCCC;
   border-collapse: collapse;
-  width: 563px;
+  width: 663px;
   height: 40px;
 }
 
@@ -280,11 +286,13 @@ td {
 .screen-left {
   position: relative;
   float: left;
-  /* display: block; */
-  height: 500px;
-  width: 500px;
-  margin-right:200px;
+  height: 800px;
+  width: 600px;
+  margin-right: 50px;
   background-color: white;
+  padding-left: 40px;
+  padding-right: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
 
 }
@@ -293,13 +301,14 @@ td {
   position: relative;
   float: right;
   display: inline-block;
-  margin-right: 100px;
-
+  margin-right: 50px;
+  margin-left: 50px;
   background: white;
   width: 400px;
   height: 500px;
   padding: 50px;
   padding-top: 0px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .screen-right p {
@@ -314,11 +323,26 @@ input {
   border-style: none;
   border-color: none;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
 }
+
 .transactions-head {
   position: relative;
   float: left;
   width: 800px;
+  margin-left: 0;
+  margin-bottom: 0;
+
+}
+
+select {
+  width: 382px;
+  height: 32px;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-weight: 200;
+  background-color: #F4F4F4;
 }
 
 .trans-h2 {
@@ -335,6 +359,8 @@ input {
 .button-align {
   position: relative;
   margin-right:100px;
+  right: 30px;
+  bottom: 35px;
 }
 
 .button-inactive {
@@ -347,6 +373,10 @@ input {
   float: left;
   border-color: none;
   border-style: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 15px;
 
 }
 .forMat {
@@ -357,5 +387,6 @@ input {
 .trans.input {
   width: 80px;
   height: 30px;
+  margin-bottom: 10px;
 
 }

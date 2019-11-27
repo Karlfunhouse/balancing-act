@@ -159,11 +159,11 @@
 
 <!-- NOTE: transaction.main start -->
 
-<section>
+<section id="transactionsMain" class="hide">
 
   <!-- NOTE: TOP PASTE HERE -->
 
-  <div id="transactionsMain" class="hide">
+  <div>
     <header class="transactions-head">Transactions
 
       <section class="button-align">
@@ -171,14 +171,14 @@
 
 
 
-          <button class="trans-button">ALL</button>
+          <button class="trans-button button-inactive">OUTFLOW</button>
 
           <button class="trans-button button-inactive">INFLOW</button>
 
-          <button class="trans-button button-inactive">OUTFLOW</button>
+          <button class="trans-button">ALL</button>
 
 
-      </section>
+
       </section>
     </header>
   <!-- <div> -->
@@ -186,7 +186,7 @@
 
     <section class="screen-left">
       <table class="tbl-mrgns">
-        <th colspan="5" >
+        <th colspan="5" class= "trans-table"></th>
           <tr>
             <td>Date</td>
             <td>Account</td>
@@ -292,6 +292,7 @@
             <td>-</td>
             <td>$212.24</td>
           </tr>
+
       </table>
 
     </section>
@@ -347,7 +348,7 @@
         <p><input type="integer" class="trans.input" name="Inflow:"/>
         </p>
 
-          <button class="log-button">Log Expenses</button>
+          <button class="log-button">Log Expense</button>
 
 
         </form>
@@ -361,7 +362,7 @@
 
 
   </div>
-
+</section>
 <!-- NOTE: End COPY/PASTE -->
 
 </main>
